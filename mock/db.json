@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "name": "John",
+      "email": "john@gmail.com",
+      "password": "john@123",
+      "role": "manager",
+      "id": "7c61"
+    },
+    {
+      "name": "Chris",
+      "email": "chris@gmail.com",
+      "password": "chris@123",
+      "role": "store_keeper",
+      "id": "f7e8"
+    },
+    {
+      "name": "Walter",
+      "email": "walter@gmail.com",
+      "password": "walter@234",
+      "role": "store_keeper",
+      "id": "7390"
+    }
+  ],
+  "products": [
+    {
+      "name": "Essence Mascara Lash Princess",
+      "quantity": 55,
+      "weight": 0.03,
+      "price": 9.99,
+      "category": "beauty",
+      "id": "1"
+    },
+    {
+      "name": "Dior J'adore Eau de Parfum",
+      "quantity": 26,
+      "weight": 0.11,
+      "price": 120,
+      "category": "beauty",
+      "id": "2"
+    },
+    {
+      "name": "iPhone 15 Pro",
+      "quantity": 151,
+      "weight": 0.2,
+      "price": 999.99,
+      "category": "electronics",
+      "id": "3"
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "quantity": 80,
+      "weight": 0.23,
+      "price": 1199,
+      "category": "electronics",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "MacBook Pro M3",
+      "price": 1749,
+      "category": "electronics",
+      "quantity": 30,
+      "weight": 1.6
+    },
+    {
+      "id": "6",
+      "name": "HP Spectre x360",
+      "price": 1200,
+      "category": "electronics",
+      "quantity": 45,
+      "weight": 1.3
+    },
+    {
+      "id": "7",
+      "name": "Brown Sugar",
+      "price": 2.5,
+      "category": "groceries",
+      "quantity": 200,
+      "weight": 1
+    },
+    {
+      "id": "8",
+      "name": "Orange Essence Flavor",
+      "price": 4.99,
+      "category": "groceries",
+      "quantity": 120,
+      "weight": 0.05
+    },
+    {
+      "id": "9",
+      "name": "Chicken Steak",
+      "price": 15,
+      "category": "groceries",
+      "quantity": 75,
+      "weight": 0.5
+    },
+    {
+      "id": "10",
+      "name": "Hand Cream",
+      "price": 7.99,
+      "category": "skincare",
+      "quantity": 180,
+      "weight": 0.08
+    },
+    {
+      "name": "Nail Art",
+      "quantity": 2,
+      "weight": 10,
+      "price": 20,
+      "category": "Nail",
+      "id": "6e24"
+    },
+    {
+      "id": "8e81",
+      "name": "Nail Art",
+      "quantity": 1,
+      "weight": 10,
+      "price": 20,
+      "category": "Nail"
+    },
+    {
+      "id": "17fc",
+      "name": "Nail Art",
+      "quantity": 1,
+      "weight": 10,
+      "price": 20,
+      "category": "Nail"
+    },
+    {
+      "id": "53ee",
+      "name": "Nail Art",
+      "quantity": 1,
+      "weight": 10,
+      "price": 20,
+      "category": "Nail"
+    },
+    {
+      "id": "70db",
+      "name": "Nail Art",
+      "quantity": 1,
+      "weight": 10,
+      "price": 20,
+      "category": "Nail"
+    },
+    {
+      "id": "2ede",
+      "name": "Pen",
+      "quantity": 1,
+      "weight": 5,
+      "price": 10,
+      "category": "Stationary"
+    }
+  ]
+}

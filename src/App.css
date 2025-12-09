@@ -1,0 +1,41 @@
+:root{
+  --primary: #23141B;
+  --secondary: #A5330B;
+  --tertiary: #E15D10;
+  --ref1: #D99A26;
+  --bgcolor: #BBA663;
+}
+
+.headerStyle{
+  textAlign: 'center';
+  color: '#fff';
+  height: 64;
+  paddingInline: 48;
+  lineHeight: '64px';
+  backgroundColor: '#4096ff';
+};
+.contentStyle{
+  textAlign: 'center';
+  minHeight: 120;
+  lineHeight: '120px';
+  color: '#fff';
+  backgroundColor: '#0958d9';
+};
+.siderStyle{
+  textAlign: 'center';
+  lineHeight: '120px';
+  color: '#fff';
+  backgroundColor: '#1677ff';
+};
+.footerStyle{
+  textAlign: 'center';
+  color: '#fff';
+  backgroundColor: '#4096ff';
+};
+.layoutStyle{
+  borderRadius: 8;
+  overflow: 'hidden';
+  width: 'calc(50% - 8px)';
+  maxWidth: 'calc(50% - 8px)';
+};
+
