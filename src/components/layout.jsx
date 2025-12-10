@@ -4,9 +4,9 @@ import { ThemeContext } from "../context/ThemeContextProvider";
 
 const { Header, Content, Footer } = Layout;
 
-const menuList = [
-  { key: 1, label: "Dashboard", href: "/dashboard" },
-  { key: 2, label: "Products", href: "/product" },
+const rawMenuList = [
+  { key: 1, label: "Dashboard", href: "/dashboard", permission: "admin" },
+  { key: 2, label: "Products", href: "/product", permission: "other" },
 ];
 
 export default function PageLayout({ children }) {
@@ -14,6 +14,11 @@ export default function PageLayout({ children }) {
   const [current, setCurrent] = useState("");
   const token = sessionStorage.getItem("user");
   const name = JSON.parse(atob(token)).name;
+  const role = JSON.parse(atob(token)).role;
+
+  const adminMenu = rawMenuList.filter((item => item.permission === "admin" || item.permission === "other"));
+  const otherMenu = rawMenuList.filter(item => item.permission === "other");
+  const menuList = role === "manager" ? adminMenu : otherMenu;
 
   const items = menuList.map((value, index) => ({
     key: index + 1,
