@@ -19,8 +19,12 @@ We are introducing a **Commodities Management System** to **diversify product va
 
 ### **3️⃣ UI Enhancements**
 - **Light/Dark Mode (15 Points)** → Implement theme switching.  
-- **Front-End Role-Based Menu Restrictions (Bonus: 25 Points)** → Restrict UI options dynamically.  
+- **Front-End Role-Based Menu Restrictions (Bonus: 25 Points)** → Restrict UI options dynamically.
 
+### Tech Stack:
+- **Backend**: NestJS · GraphQL · Prisma
+- **Frontend**: Next.js · TypeScript · Tailwind CSS · Apollo Client
+- **Auth**: Role-based access control (RBAC) · Bonus: Re-BAC
 ---
 
 ## 🔒 Role-Based Access Rules
