@@ -1,0 +1,14 @@
+{
+  "name": "slooze_test",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "json-server --watch db.json --port 5000"
+  }
+}
